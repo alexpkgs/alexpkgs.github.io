@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Geist'; /* Use a descriptive name for your font */
+    src: url('./Geist-Regular.ttf') format('truetype'); /* Path to your font file */
+    font-weight: normal; /* Adjust if needed */
+    font-style: normal; /* Adjust if needed */
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', Quicksand; /* Use your custom font */
+    background-color: #000000; /* Background color */
+}
+
+.icon {
+    width: 30px;   /* Adjust the width */
+    height: 30px;  /* Adjust the height */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+/* Bio Section Styles */
+.bio-section {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    position: absolute;
+    top: 80px; /* Adjusted from 20px to 80px to move it down */
+    left: 20px;
+    gap: 10px;
+}
+
+.profile-image {
+    height: 10vh; /* Height set to 10% of the viewport height */
+    width: auto;  /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular shape */
+}
+
+.bio-content h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.bio-content span {
+    font-size: 0.8em;
+    color: #ccc; /* Lighter color for extra info */
+}
+
+.bio-content p {
+    margin: 10px 0;
+}
+
+.bio-content a {
+    color: #66ccff; /* Light blue links */
+    text-decoration: none;
+}
+
+.bio-content a:hover {
+    text-decoration: underline;
+}
+
+
