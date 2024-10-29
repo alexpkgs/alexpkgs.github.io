@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+    color: white;
+    font-family: Quicksand, Quicksand;
+}
+
+.languages {
+    margin: 20px;
+}
+
+.label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: #222;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #444;
+}
+
