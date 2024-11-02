@@ -1,3 +1,4 @@
+/* */
 .cards-container {
     display: flex;                   /* Enable flexbox layout */
     flex-wrap: wrap;                /* Allow cards to wrap to the next line if necessary */
