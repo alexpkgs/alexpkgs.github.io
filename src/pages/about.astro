@@ -1,0 +1,333 @@
+---
+// components
+import Button from '../components/style.jsx'
+---
+<title>xpr</title>
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="buttona.css">
+<link rel="stylesheet" href="cards.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <span class="logo">xpr<span class="dot">.</span></span>
+    <div class="links">
+        <a href="/about">/about</a>
+        <a href="/">/</a>
+        <a href="/">/</a>
+        <a href="/">/</a>
+    </div>
+    <a href="https://codeberg.org/xpr" class="icon-link">
+        <img src="./icons/codeberg.png" alt="Codeberg" class="icon">
+<script>
+const navlist = document.querySelector(".navlist");
+const toggler = document.querySelector(".toggler");
+toggler.addEventListener("click", () => {
+    navlist.classList.toggle("hidden");
+});
+</script>
+    </a>
+</nav>
+
+<div class="bio-section">
+    <img src="./icons/avatar.webp" alt="Profile Image" class="profile-image">
+    <div class="bio-content">
+        <h1>xpr <span>(he/him)</span></h1>
+        <p>i create things look at more projects at <a href="https://codeberg.org/xpr">codeberg.</p>
+        <div>
+        </head>
+        <body style="background-color: #000; color: white; font-family: 'Quicksand', sans-serif;">
+            <div class="languages">
+                <label class="label">Langs/Webdev i know</label>
+                <div class="buttons">
+                    <div class="button">Lua</div>
+                    <div class="button">C</div>
+                    <div class="button">C++</div>
+                    <div class="button">Python</div>
+                    <div class="button">Shell</div>
+                    <div class="button">Nix</div>
+                    <div class="button">Javascript</div>
+                    <div class="button">CSS</div>
+                    <div class="button">SCSS</div>
+                    <div class="button">Astro</div>
+                    <!-- Add more buttons as needed -->
+                </div>
+            </div>
+        </body>
+        </html>
+
+        <style>
+            body {
+    background-color: #000;
+    color: white;
+    font-family: Quicksand, Quicksand;
+}
+
+.languages {
+    margin: 20px;
+}
+
+.label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: #222;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #444;
+}
+
+
+            </style>
+
+            <style>
+
+@font-face {
+    font-family: 'Geist'; /* Use a descriptive name for your font */
+    src: url('./Geist-Regular.ttf') format('truetype'); /* Path to your font file */
+    font-weight: normal; /* Adjust if needed */
+    font-style: normal; /* Adjust if needed */
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', Quicksand; /* Use your custom font */
+    background-color: #000000; /* Background color */
+}
+
+.icon {
+    width: 30px;   /* Adjust the width */
+    height: 30px;  /* Adjust the height */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+/* Bio Section Styles */
+.bio-section {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    position: absolute;
+    top: 80px; /* Adjusted from 20px to 80px to move it down */
+    left: 20px;
+    gap: 10px;
+}
+
+.profile-image {
+    height: 10vh; /* Height set to 10% of the viewport height */
+    width: auto;  /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular shape */
+}
+
+.bio-content h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.bio-content span {
+    font-size: 0.8em;
+    color: #ccc; /* Lighter color for extra info */
+}
+
+.bio-content p {
+    margin: 10px 0;
+}
+
+.bio-content a {
+    color: #66ccff; /* Light blue links */
+    text-decoration: none;
+}
+
+.bio-content a:hover {
+    text-decoration: underline;
+}
+
+
+
+                </style>
+            <style>
+            /* Reset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Quicksand, Quicksand;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dot {
+    color: #ffffff; /* Blue dot */
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #ffffff; /* Hover effect */
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
+
+            </style>
+
+            
+
+<style>body {
+    background-color: #000;
+    color: white;
+    font-family: Quicksand, Quicksand;
+}
+
+.languages {
+    margin: 20px;
+}
+
+.label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: #222;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #444;
+}
+
+</style>
+
+<style>
+   @font-face {
+    font-family: 'Geist'; /* Use a descriptive name for your font */
+    src: url('./Geist-Regular.ttf') format('truetype'); /* Path to your font file */
+    font-weight: normal; /* Adjust if needed */
+    font-style: normal; /* Adjust if needed */
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', Quicksand; /* Use your custom font */
+    background-color: #000000; /* Background color */
+}
+
+.icon {
+    width: 30px;   /* Adjust the width */
+    height: 30px;  /* Adjust the height */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+/* Bio Section Styles */
+.bio-section {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    position: absolute;
+    top: 80px; /* Adjusted from 20px to 80px to move it down */
+    left: 20px;
+    gap: 10px;
+}
+
+.profile-image {
+    height: 10vh; /* Height set to 10% of the viewport height */
+    width: auto;  /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular shape */
+}
+
+.bio-content h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.bio-content span {
+    font-size: 0.8em;
+    color: #ccc; /* Lighter color for extra info */
+}
+
+.bio-content p {
+    margin: 10px 0;
+}
+
+.bio-content a {
+    color: #66ccff; /* Light blue links */
+    text-decoration: none;
+}
+
+.bio-content a:hover {
+    text-decoration: underline;
+}
+
+
+ 
+    </style>
