@@ -1,0 +1,56 @@
+/* Reset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Quicksand, Quicksand;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dot {
+    color: #ffffff; /* Blue dot */
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #ffffff; /* Hover effect */
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
